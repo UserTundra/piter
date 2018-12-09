@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/piter_main" android:id="@+id/imageView4"
+                android:paddingBottom="5dp" android:paddingTop="7dp" android:paddingLeft="3dp"
+                android:paddingRight="3dp"/>
+        <TextView
+                android:text="Санкт-Петербург"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/textView2" android:textSize="24sp"
+                android:gravity="center_vertical|center_horizontal" android:paddingRight="5dp"
+                android:paddingLeft="5dp" android:paddingBottom="3dp"/>
+        <TextView
+                android:text='русский портовый город на побережье Балтийского моря, который в течение двух веков служил столицей Российской империи. Он был основан в 1703 году Петром I, которому воздвигнут знаменитый памятник "Медный всадник". Город по праву считается культурным центром страны. '
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/textView3" android:paddingBottom="7dp"
+                android:paddingLeft="3dp" android:paddingRight="3dp" android:paddingTop="2dp"
+                android:gravity="center_vertical|center_horizontal"/>
+        <TextView
+                android:text="У туристов пользуются популярностью Мариинский театр, где проходят оперные и балетные спектакли, и Государственный Русский музей с коллекцией русского искусства, которая включает как православные иконы, так и работы художника-абстракциониста Василия Кандинского."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/textView4" android:textSize="14sp"
+                android:gravity="center_vertical|center_horizontal"/>
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/piter_icon" android:id="@+id/imageView3"
+                android:paddingTop="5dp"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

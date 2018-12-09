@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_bridges"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Мосты" />
+        <item
+            android:id="@+id/nav_cathedrals"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Соборы" />
+        <item
+            android:id="@+id/nav_petergoph"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Петергоф" />
+
+    </group>
+
+    <item android:title="ⵈ━══════╗◊╔══════━ⵈ">
+        <menu>
+
+            <item
+                android:id="@+id/nav_to_main"
+                android:icon="@drawable/ic_menu_send"
+                android:title="На главную" />
+        </menu>
+    </item>
+
+</menu>
